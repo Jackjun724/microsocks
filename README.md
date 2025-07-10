@@ -43,6 +43,8 @@ command line options
 
     microsocks -1 -q -i listenip -p port -u user -P passw -b bindaddr -w wl
 
+    nohup ./microsocks -q -i 0.0.0.0 -p 10111 -u admin -P 123456 > microsocks.log 2>&1 &
+
 all arguments are optional.
 by default listenip is 0.0.0.0 and port 1080.
 
